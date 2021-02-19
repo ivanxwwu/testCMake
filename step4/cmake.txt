@@ -1,0 +1,3 @@
+cmake ../step2 -DUSE_MYMATH=OFF
+
+ctest -Nctest -VVctest -C Debug -VVRUN_TESTS

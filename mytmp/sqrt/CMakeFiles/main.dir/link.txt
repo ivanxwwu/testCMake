@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/main.dir/main.o -o main  -Wl,-rpath,/cppworkspace/testCMake/mytmp/sqrt libyyy.so libxxx.a 

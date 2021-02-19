@@ -1,0 +1,8 @@
+cmake ../step2 -DUSE_MYMATH=OFF
+
+ctest -Nctest -VVctest -C Debug -VVRUN_TESTS
+
+
+cpack
+cpack -G ZIP -C Debug
+cpack --config CPackSourceConfig.cmake

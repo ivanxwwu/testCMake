@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cppworkspace/testCMake/step12/MathFunctions/mysqrt.cxx
+iostream
+-
+Table.h
+/cppworkspace/testCMake/step12/MathFunctions/Table.h
+
+MathFunctions/Table.h
+

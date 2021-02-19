@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cppworkspace/testCMake/mytmp/sqrt/myadd.h
+
+/cppworkspace/testCMake/mytmp/sqrt/myaddex.cpp
+myaddex.h
+/cppworkspace/testCMake/mytmp/sqrt/myaddex.h
+myadd.h
+/cppworkspace/testCMake/mytmp/sqrt/myadd.h
+
+/cppworkspace/testCMake/mytmp/sqrt/myaddex.h
+

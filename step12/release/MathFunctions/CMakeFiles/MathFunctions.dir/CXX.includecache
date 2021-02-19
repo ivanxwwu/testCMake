@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cppworkspace/testCMake/step12/MathFunctions/MathFunctions.cxx
+MathFunctions.h
+/cppworkspace/testCMake/step12/MathFunctions/MathFunctions.h
+cmath
+-
+mysqrt.h
+/cppworkspace/testCMake/step12/MathFunctions/mysqrt.h
+
+/cppworkspace/testCMake/step12/MathFunctions/MathFunctions.h
+
+/cppworkspace/testCMake/step12/MathFunctions/mysqrt.h
+cmath
+-
+

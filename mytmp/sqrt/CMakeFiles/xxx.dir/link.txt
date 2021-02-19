@@ -1,0 +1,2 @@
+/usr/bin/ar qc libxxx.a CMakeFiles/xxx.dir/myadd.o
+/usr/bin/ranlib libxxx.a
